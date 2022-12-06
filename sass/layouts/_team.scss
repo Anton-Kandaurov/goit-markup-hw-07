@@ -1,11 +1,14 @@
-.team-con-ul {
+.team {
+    background-color: var(--backroun-color);
+    
+&-con-ul {
     display: flex;
     gap: 30px;
     margin-top: 50px;
 }
 
 
-.team-list-li {
+&-list-li {
     width: 270px;
     background-color: var(--basic-title-color);
     border-radius: 5px;
@@ -14,18 +17,15 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-con-text {
+&-con-text {
     gap: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 
-.team {
-    background-color: var(--backroun-color);
-}
 
-.team-title {
+&-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -34,24 +34,17 @@
 
 }
 
-.team-list {
+&-list {
     text-decoration: none;
     list-style-type: none;
     justify-content: center;
 }
 
 
-.taem-list-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
 
 
-.team-list-p {
+
+&-list-p {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -67,30 +60,21 @@
 }
 
 
-.team-img {
+&-img {
     display: block;
 }
 
-.svg-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+&-list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(---title-N3-text-color);
+}
 }
 
 
-.svg-li {
-    width: 44px;
-    height: 44px;
-    background-color: var(--basic-title-color);
-    border-radius: 50%;
-    display: flex;
-    transition: var(--transition-ms);
-}
-
-.svg-li:focus,
-.svg-li:hover {
-    background-color: var(--accent-color);
-}
 
 .svg {
     width: 100%;
@@ -98,17 +82,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+&-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.svg-icon {
+
+&-li {
+    width: 44px;
+    height: 44px;
+    background-color: var(--basic-title-color);
+    border-radius: 50%;
+    display: flex;
+    transition: var(--transition-ms);
+
+&:focus,
+&:hover {
+    background-color: var(--accent-color);
+}
+
+&:hover .svg-icon {
+    fill: var(--basic-title-color);
+}
+
+&:focus .svg-icon {
+    fill: var(--basic-title-color);
+}
+}
+
+&-icon {
     fill: var(--icon-basic-color);
     transition: var(--transition-ms);
 }
 
-.svg-li:hover .svg-icon {
-    fill: var(--basic-title-color);
-}
-
-.svg-li:focus .svg-icon {
-    fill: var(--basic-title-color);
 }

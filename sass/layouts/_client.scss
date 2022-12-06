@@ -1,4 +1,6 @@
-.client-title {
+.client{
+
+    &-title {
     font-size: 36px;
     line-height: 1.1666;
     text-align: center;
@@ -6,22 +8,31 @@
     margin-bottom: 50px;
 }
 
-.client-li {
+&-li {
     border: 1px solid var(--icon-basic-color);
     border-radius: 5px;
     width: 170px;
     height: 92px;
     transition: var(--transition-ms);
-}
 
-
-.client-li:focus,
-.client-li:hover {
+    &:focus,
+    &:hover {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
 }
 
-.client-ul {
+    &:hover .svg-client {
+    fill: var(--accent-color);
+}
+    &:focus .client-li {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+}
+
+
+
+&-ul {
     display: flex;
     gap: 30px;
 }
@@ -37,20 +48,20 @@
 }
 
 
-.client-li-svg {
+&-li-svg {
     transition: var(--transition-ms);
-}
 
-.client-li-svg:focus,
-.client-li-svg:hover {
+    &:focus,
+    &:hover {
     fill: var(--accent-color);
 }
 
-.client-li:hover .svg-client {
-    fill: var(--accent-color);
+
 }
 
-.client-li:focus .client-li {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
+
+
+
+
 }
+

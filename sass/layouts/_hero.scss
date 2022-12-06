@@ -6,10 +6,10 @@
     padding: 200px 0px;
     margin: 0 auto;
     background-image:
-        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-backround.jpg);
-}
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-backround.jpg);
 
-.hero-h1 {
+    
+&-h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1, 3636;
@@ -37,4 +37,5 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
+}
 }

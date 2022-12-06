@@ -4,10 +4,8 @@
     margin-left: auto;
     justify-content: center;
     padding-top: 0;
-}
 
-
-.work-title {
+&-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -16,7 +14,7 @@
     text-align: center;
 }
 
-.work-list {
+&-list {
     text-decoration: none;
     list-style-type: none;
     color: var(--basic-title-color);
@@ -25,11 +23,11 @@
     gap: 30px;
 }
 
-.work-list-wrap {
+&-list-wrap {
     position: relative;
 }
 
-.work-kist-text {
+&-kist-text {
     font-size: 14px;
     line-height: 1.1428;
     text-align: center;
@@ -41,4 +39,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
 }

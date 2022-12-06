@@ -1,19 +1,20 @@
-.list-li {
+.list {
+    text-decoration: none;
+    list-style-type: none;
+
+    &-li {
     width: 270px;
 }
 
 
-.list-con-div {
+&-con-div {
     display: flex;
     gap: 30px;
 }
 
-.list {
-    text-decoration: none;
-    list-style-type: none;
-}
 
-.list-title {
+
+&-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
@@ -22,7 +23,7 @@
     margin-bottom: 10px;
 }
 
-.title-none {
+&-none {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -35,7 +36,7 @@
     overflow: hidden;
 }
 
-.list-title-p {
+&-title-p {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -43,7 +44,7 @@
 }
 
 
-.list-con-svg {
+&-con-svg {
     background-color: var(--backroun-color);
     margin-bottom: 30px;
     justify-content: center;
@@ -52,3 +53,5 @@
     padding: 25px 100px;
     border-radius: 5px;
 }
+}
+

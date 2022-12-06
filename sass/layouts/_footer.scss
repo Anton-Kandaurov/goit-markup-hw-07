@@ -2,20 +2,20 @@
     background-color: var(--hero-footer-color);
     padding: 60px 0px;
     min-width: 1200px;
-}
 
+    
 .foot-con {
     display: flex;
     align-items: baseline;
 }
 
-.footer-addres {
+&-addres {
     text-decoration: none;
     list-style-type: none;
     margin-right: 70px;
 }
 
-.footer-addres-map {
+&-addres-map {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
@@ -24,15 +24,16 @@
     color: var(--basic-title-color);
     font-style: normal;
     transition: var(--transition-ms);
-}
 
-
-.footer-addres-map:hover,
-.footer-addres-map:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
 }
 
-.footer-nav-contact {
+}
+
+
+&-nav-contact {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     list-style-type: none;
@@ -43,14 +44,14 @@
     font-style: normal;
     transition: var(--transition-ms);
 
-}
-
-.footer-nav-contact:focus,
-.footer-nav-contact:hover {
+    &:focus,
+    &:hover {
     color: var(--accent-color);
 }
+}
 
-.footer-logo {
+
+&-logo {
     color: var(--basic-title-color);
     font-family: 'Raleway';
     font-weight: 700;
@@ -59,14 +60,16 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     transition: var(--transition-ms);
-}
 
-.footer-logo:focus,
-.footer-logo:hover {
+    &:focus,
+    &:hover {
     color: var(--accent-color);
 }
+}
 
-.footer-adres {
+
+
+&-adres {
     margin-top: 20px;
 }
 
@@ -83,38 +86,49 @@
     margin-bottom: 20px;
 }
 
-.svg-list-foot {
+}
+
+.svg{
+    &-list-foot {
     display: flex;
     gap: 10px;
 }
 
-.svg-li-foot {
+&-li-foot {
     width: 44px;
     height: 44px;
     background-color: #43444D;
     border-radius: 50%;
     display: flex;
     transition: var(--transition-ms);
-}
-
-.svg-li-foot:hover,
-.svg-li-foot:focus {
+     
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
 }
 
-.svg-li-foot:focus {
-    background-color: var(--accent-color);
 }
 
-.svg:focus {
+&:focus {
     border-color: var(--accent-color);
 }
 
-.svg-icon-foot {
+&-icon-foot {
     fill: var(--basic-title-color);
 }
+}
 
-.spam-title {
+
+.spam {
+    justify-content: center;
+    align-items: center;
+    margin-left: 93px;
+
+    &-form{
+    color: #fff;
+}
+
+&-title {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -125,34 +139,29 @@
     margin-bottom: 20px;
 }
 
-.spam-input {
+&-input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--basic-title-color);
     background-color: transparent;
     padding-left: 16px;
-}
 
-.spam-input::placeholder {
+    &::placeholder {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 16px;
 }
 
-.spam {
-    justify-content: center;
-    align-items: center;
-    margin-left: 93px;
 }
 
-.spam-btn {
+
+&-btn {
     width: 200px;
     height: 50px;
-    color: rgba(255, 255, 255, 0.6);
-    ;
+    color: var(--basic-title-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -169,7 +178,7 @@
     margin-left: 12px;
 }
 
-.spam-btn-text {
+&-btn-text {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -178,15 +187,18 @@
     padding-right: auto;
     padding-left: auto;
     letter-spacing: 0.06em;
+    color: #fff;
 }
 
-.spam-icon-send {
+&-icon-send {
     fill: var(--basic-title-color);
     width: 24px;
     height: 24px;
     margin-left: 10px;
 }
 
-.spam-form {
+&-form {
     display: flex;
 }
+}
+

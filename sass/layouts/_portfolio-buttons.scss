@@ -17,14 +17,15 @@
     margin-left: auto;
     padding: 6px 22px;
     transition: var(--transition-ms);
-}
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+&:hover,
+&:focus {
     box-shadow: 1px 1px 2px 2px var(--title-N2-text-color);
     color: var(--basic-title-color);
     background-color: var(--accent-color);
 }
+}
+
 
 .portfolio {
     background-color: var(--basic-title-color);

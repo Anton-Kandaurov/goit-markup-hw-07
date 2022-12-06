@@ -1021,24 +1021,23 @@ a{
     background-color: var(--basic-title-color);
 }
 /*-------------------------list-----------------*/
-
-.portfolio-list-title{
+.portfolio-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     margin-bottom: 4px;
     color: var(--title-N3-text-color);
 }
 
-.portfolio-list-p{
+.portfolio-list-p {
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: var(--title-N2-text-color);
 }
 
 
-.portfolio-list{
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1046,41 +1045,42 @@ a{
 }
 
 
-.portfolio-list > .port-thumb{
-    flex-basis:calc(100% / 3) ;
+.portfolio-list>.port-thumb {
+    flex-basis: calc(100% / 3);
 }
 
-.port-list-text{
+.port-list-text {
     padding: 20px 24px;
-    border-bottom:1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
     text-decoration: none;
 }
 
 
-.footer-port{
+.footer-port {
     background-color: var(--hero-footer-color);
 }
 
-.port-list-img{
+.port-list-img {
     display: block;
 }
 
-.header-container-port{
+.header-container-port {
     border-bottom: 1px solid #ECECEC;
 }
-   
+
 .portfolio-list-li:hover,
-.portfolio-list-li:focus{
+.portfolio-list-li:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-list-li{
+.portfolio-list-li {
     width: 370px;
+    text-decoration: none;
 }
 
-.portfolio-list-li:hover .portfolio-list-scrol{
+.portfolio-list-li:hover .portfolio-list-scrol {
     transform: translateY(0);
 }
 
@@ -1088,10 +1088,11 @@ a{
     transform: translateY(0);
 }
 
-.portfolio-list-scrol{
+.portfolio-list-scrol {
     position: absolute;
     top: 0;
-    background-color: rgba(33, 150, 243, 0.9);;
+    background-color: rgba(33, 150, 243, 0.9);
+    ;
     color: var(--basic-title-color);
     font-size: 18px;
     line-height: 1.5555;
@@ -1102,7 +1103,7 @@ a{
     overflow: auto;
 }
 
-.list-patfolio-wrap{
+.list-patfolio-wrap {
     position: relative;
     overflow: hidden;
 }
