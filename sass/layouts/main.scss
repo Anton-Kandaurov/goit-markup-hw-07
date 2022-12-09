@@ -1,5 +1,3 @@
-@import '../base/reset';
-@import '../base/commons';
 @import './header';
 @import './hero';
 @import './list';
@@ -11,3 +9,6 @@
 @import './portfolio-commons';
 @import './portfolio-buttons';
 @import './portfolio-list';
+
+@import '../base/reset';
+@import '../base/commons';

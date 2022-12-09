@@ -45,3 +45,64 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+
+    
+}
+
+@media screen and (min-width: 0){
+     .container{
+        width: 450px;
+     }
+
+     .hero{
+        min-width: 450px;
+        max-width: 480px;
+     }
+
+     .list-con-div{
+        display: block;
+     }
+
+     .work{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+     }
+     
+     .client-ul{
+        display: block;
+     }
+
+     .team-con-ul{
+        display: block;
+     }
+
+}
+
+@media screen and (min-width: 738) {
+    .container {
+            width: 738px;
+        }
+    
+        .hero {
+            min-width: 738px;
+            max-width: 768px;
+        }
+
+
+}
